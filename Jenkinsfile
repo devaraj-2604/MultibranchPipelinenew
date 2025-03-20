@@ -8,6 +8,7 @@ pipeline
      steps
       {
          git branch: 'feature2', url: 'https://github.com/devaraj-2604/MultibranchPipelinenew.git'
+      }
      }
     stage("checkoutfor_keyword")
      {
