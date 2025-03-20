@@ -7,7 +7,7 @@ pipeline
     {
      steps
       {
-         git branch: 'feature3', url: 'https://github.com/devaraj-2604/Multibra>
+         git branch: 'feature3', url: 'https://github.com/devaraj-2604/MultibranchPipelinenew.git'
       }
      }
     stage("checkoutfor_keyword")
